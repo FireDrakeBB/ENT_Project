@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.splitted-screen {
+  display: flex;
+  height: 100dvh;
+  overflow: hidden;
+}
+.splitted-screen .form-section {
+  flex-basis: 50%;
+  padding: 20px;
+}
+.splitted-screen .form-section .logo-img {
+  text-align: right;
+}
+.splitted-screen .image-section {
+  flex-basis: 50%;
+}
+.splitted-screen .image-section img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.splitted-screen .form h2 {
+  font-family: "Rufina", serif;
+  width: 190px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-underline-offset: 13px;
+}
+.splitted-screen input {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+  width: 283px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #324231;
+}
+.splitted-screen form {
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  max-width: 645px;
+}
+.splitted-screen .input-main {
+  display: flex;
+  width: 100%;
+}
+.splitted-screen .input-1 {
+  margin-right: 10%;
+}
+.splitted-screen .terms {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 645px;
+  width: 100%;
+}
+.splitted-screen .button {
+  width: 100%;
+  height: 46px;
+  border-radius: 8px;
+  color: #324231;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.splitted-screen .button-1 {
+  background-color: rgba(165, 221, 160, 0.77);
+  width: 100%;
+  height: 46px;
+  border-radius: 8px;
+  color: #324231;
+  text-align: center;
+  font-family: Rufina;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.splitted-screen .button-main {
+  width: 100%;
+}
+.splitted-screen .already {
+  color: #547451;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.splitted-screen .sign-in {
+  color: #324231;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.splitted-screen .signup {
+  color: #324231;
+  font-family: Rufina;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-underline-position: below;
+}
+.splitted-screen .underline {
+  border-radius: 12px;
+  background: #324231;
+}
+.splitted-screen .social > img {
+  width: 168px;
+}
+.splitted-screen .pass {
+  position: relative;
+}
+.splitted-screen span {
+  position: absolute;
+  bottom: 415px;
+  height: 47px;
+  right: 376px;
+}
+.splitted-screen ::-moz-placeholder {
+  color: rgba(36, 120, 28, 0.72);
+  font-family: Archivo;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 15px;
+  padding: 10px;
+}
+.splitted-screen ::placeholder {
+  color: rgba(36, 120, 28, 0.72);
+  font-family: Archivo;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 15px;
+  padding: 10px;
+}
+.splitted-screen .social {
+  display: flex;
+  align-self: flex-end;
+}/*# sourceMappingURL=style.css.map */

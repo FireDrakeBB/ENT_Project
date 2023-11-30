@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DapperHub || Signup</title>
+    <link rel="stylesheet" href="../scss/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rufina:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="splitted-screen">
+      <div class="image-section">
+        <img src="../images/signup-bg-image.png" alt="signup-bg-image" />
+      </div>
+
+      <!-- this section contains the form for signing up -->
+      <div class="form-section">
+        <div class="logo-img">
+          <img
+            width="172px"
+            src="../images/dopperhub-logo-img.png"
+            alt="dopperhub-logo-img"
+          />
+        </div>
+        <div class="form">
+          <h2 class="signup">Sign Up</h2>
+          <span class="underline"></span>
+          <form action="">
+            <div class="input-main">
+              <div class="input-1">
+                <div>
+                  <label for="Fname">First Name</label>
+                  <input type="text" placeholder="John" id="st" required />
+                </div>
+                <div>
+                  <label for="Email">Email Address</label>
+                  <input type="email" placeholder="example@gmail.com" id="st" />
+                </div>
+                <div class="pass">
+                  <span class="eye"
+                    ><img
+                      src="../images/password-eye-icon.png"
+                      alt="password-eye-icon"
+                  /></span>
+                  <label for="Password" name="">Password</label>
+                  <i class="fa fa-eye-open"></i>
+                  <input placeholder="***********" type="password" required />
+                </div>
+              </div>
+
+              <div>
+                <div>
+                  <label for="Lname">Last Name</label>
+                  <input type="text" placeholder="Agbo" id="nd" required />
+                </div>
+                <div>
+                  <label for="Phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    placeholder="+234-81-7787-8989"
+                    id="nd"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="Confirm">Confirm Password</label>
+                  <input
+                    placeholder="***********"
+                    type="password"
+                    name="Password"
+                    id="nd"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="terms">
+            <div>
+              <p>By signing up you accept to our Terms and Conditions</p>
+            </div>
+            <div class="button-main">
+              <input class="button-1" type="button" value="Sign Up" />
+              <input class="button" type="button" value="Sign up with Google" />
+              <input
+                class="button"
+                type="button"
+                value="Sign up with Facebook"
+              />
+            </div>
+            <div>
+              <p class="already">
+                Already have an account ?<a href="" class="sign-in">Sign in</a>
+              </p>
+            </div>
+            <div class="social">
+              <img
+                src="../images/social-media-icons.png"
+                alt="social-media-icons"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
