@@ -45,4 +45,6 @@ app.post('/sign-up', function (req, res) {
   });
 })
 
-app.listen(port);
+app.listen(port, () => {
+  console.log("server running");
+});
