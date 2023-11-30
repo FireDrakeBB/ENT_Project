@@ -9,11 +9,11 @@
 <body>
     <div class="container">
         <div class="title">Sign Up </div>
-        <form action="#">
+        <form onsubmit="signUp()" action="#">
             <div class="deet">
                 <div class="input">
                     <span class="details">Full Name</span>
-                    <input type="text" placeholder="Enter your name" required>
+                    <input id="uid" type="text" placeholder="Enter your name" required>
                 </div>
                 <div class="input">
                     <span class="details">Last Name</span>
@@ -28,7 +28,7 @@
                     <input type="tel" placeholder="Enter your name" required>
                 </div><div class="input">
                     <span class="details">Password</span>
-                    <input type="text" placeholder="Enter your Password" required>
+                    <input id="pwd" type="text" placeholder="Enter your Password" required>
                 </div>
                 <div class="input">
                 <span class="details">Confirm Password</span>
@@ -42,4 +42,33 @@
         </form>
     </div>
 </body>
+<script>
+
+    function sendHttpRqst (data, url) {
+        function sendPostRequest(url, data, callback) {
+        $.ajax({
+            url: url,
+            method: "POST",
+            data: data,
+            dataType: "json",
+            success: function(response) {
+            alert(response);
+            },
+            error: function(error) {
+            alert(error);
+            }
+        });
+      }
+    }
+
+    function signUp (event) {
+        event.preventDefault();
+        var uid = document.getElementById("id"),
+            pwd = document.getElementById("pwd"),
+            data = {
+                username: uid, password: pwd
+            }
+        
+    }
+</script>
 </html>
